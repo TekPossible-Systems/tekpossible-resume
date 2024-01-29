@@ -1,0 +1,43 @@
+<%- include('../partials/header'); -%>
+<%- include('../partials/menu') %>
+<body id ="body" style="background-color: rgb(20, 20, 20);">
+  <main>
+
+    <div class="container-lg bg-light rounded" style="margin-top: 4%;">
+      <div class="card-columns" id="insert_here">  
+        <script>
+          
+        </script>
+        <script>
+        function hex_to_ascii(str1)
+        {
+          var hex  = str1.toString();
+          var str = '';
+          for (var n = 0; n < hex.length; n += 2) {
+            character = String.fromCharCode(parseInt(hex.substr(n, 2), 16));
+            if(character != 'Ú'){
+              str += character;
+            } 
+          }
+          return str;
+        }
+        function get_data(resume_name, resume_url, resume_img, resume_id, resume_desc){ 
+            var location_list = location.split(':');
+            console.log(location_list);
+            card.innerHTML += "<div class=\"card\" id=\"" + resume_id + "\" style=\"width: 20rem;\"><img src="+ resume_img + " class=\"card-img-top\" alt=\"Resume Image\"><div class=\"card-body\"><h4 class=\"card-title\">" + resume_name + "</h4><h5>Related Link: <a href=\"" + resume_url + "\">Link</a>></h5><p class=\"card-text\">" +  resume_desc + "</p></div></div>";
+        }
+        <% if (items) { %>
+                  card = document.getElementById("insert_here");
+                  card.innerHTML = "";
+                  <% items.forEach( item => { %>
+                    <% if (item.resume_type == "PROJ") { %>
+                      get_data("<%- item.resume_name %>", "<%- item.resume_url %>","<%- item.resume_img %>", "<%- item.resume_id %>", "<%- item.resume_desc %>");
+                    <% } %>
+                  <% }); %>
+                <% } %>
+        </script>
+        
+      </div>
+  </main>
+  <%- include('../partials/footer'); -%>
+</body>
