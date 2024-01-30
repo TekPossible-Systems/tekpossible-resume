@@ -26,10 +26,10 @@ hooks:
     timeout: 300
     runas: root   
   ApplicationStart:
-  - location: "scripts/start_script.sh"
+  - location: "/home/ec2-user/app/scripts/start_script.sh"
     timeout: 300
     runas: root   
   ApplicationStop:
-  - location: "scripts/stop_script.sh"
+  - location: "/home/ec2-user/app/scripts/stop_script.sh"
     timeout: 300
     runas: root   
