@@ -2,7 +2,7 @@
 
 # Thanks aws for the httpd config! I did not want to mess with that
 # TODO: Cert bot stuff.
-cat <<EOT >> /etc/httpd/conf/httpd.conf
+sudo cat <<EOT >> /etc/httpd/conf/httpd.conf
 LoadModule proxy_module modules/mod_proxy.so
 LoadModule proxy_http_module modules/mod_proxy_http.so
 
@@ -14,3 +14,4 @@ ProxyPassReverse / http://localhost:8080/
   Order allow,deny
   Allow from all
 </Location>
+EOT
