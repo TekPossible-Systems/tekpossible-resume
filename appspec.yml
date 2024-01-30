@@ -1,0 +1,33 @@
+version: 0.0
+os: linux
+files:
+- source: "/server.js"
+  destination: "/home/ec2-user/app/server.js"
+- source: "/init_data/"
+  destination: "/home/ec2-user/app/init_data/"
+- source: "/scripts"
+  destination: "/home/ec2-user/app/scripts/"
+- source: "/views"
+  destination: "/home/ec2-user/app/views/"
+- source: "/resources/"
+  destination: "/home/ec2-user/app/resources/"
+- source: "/tests/"
+  destination: "/home/ec2-user/app/tests/"
+- source: "/package.json"
+  destination: "/home/ec2-user/app/package.json" 
+hooks:
+  AfterInstall:
+  - location: "/home/ec2-user/app/setup_psql.sh"
+    timeout: 300
+    runas: root
+  - location: "/home/ec2-user/app/setup_httpd.sh"
+    timeout: 300
+    runas: root   
+  ApplicationStart:
+  - location: "/home/ec2-user/app/start_script.sh"
+    timeout: 300
+    runas: root   
+  ApplicationStop:
+  - location: "/home/ec2-user/app/stop_script.sh"
+    timeout: 300
+    runas: root   

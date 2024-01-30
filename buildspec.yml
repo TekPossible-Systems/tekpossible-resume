@@ -1,0 +1,14 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+  commands:
+  - npm install
+  post_build:
+    commands:
+    - rm -rf node_modules
+    - npm install --production
+  artifacts:
+    files:
+    - '**/*'
