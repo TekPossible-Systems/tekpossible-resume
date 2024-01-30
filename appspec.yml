@@ -11,8 +11,6 @@ files:
   destination: "/home/ec2-user/app/views/"
 - source: "/resources/"
   destination: "/home/ec2-user/app/resources/"
-- source: "/tests/"
-  destination: "/home/ec2-user/app/tests/"
 - source: "/package.json"
   destination: "/home/ec2-user/app/package.json" 
 hooks:
