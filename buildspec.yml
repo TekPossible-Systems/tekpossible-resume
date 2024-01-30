@@ -9,6 +9,6 @@ phases:
     commands:
       - rm -rf node_modules
       - npm install --production
-  artifacts:
-    files:
-      - '**/*'
+artifacts:
+  files:
+    - '**/*'
