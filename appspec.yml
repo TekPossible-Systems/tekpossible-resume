@@ -15,17 +15,17 @@ files:
   destination: "/home/ec2-user/app/package.json" 
 hooks:
   AfterInstall:
-  - location: "/home/ec2-user/app/setup_psql.sh"
+  - location: "/home/ec2-user/app/scripts/setup_psql.sh"
     timeout: 300
     runas: root
-  - location: "/home/ec2-user/app/setup_httpd.sh"
+  - location: "/home/ec2-user/app/scripts/setup_httpd.sh"
     timeout: 300
     runas: root   
   ApplicationStart:
-  - location: "/home/ec2-user/app/start_script.sh"
+  - location: "/home/ec2-user/app/scripts/start_script.sh"
     timeout: 300
     runas: root   
   ApplicationStop:
-  - location: "/home/ec2-user/app/stop_script.sh"
+  - location: "/home/ec2-user/app/scripts/stop_script.sh"
     timeout: 300
     runas: root   
