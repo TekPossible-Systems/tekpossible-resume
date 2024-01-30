@@ -19,17 +19,17 @@ files:
   destination: "/home/ec2-user/app/node_modules/"
 hooks:
   AfterInstall:
-  - location: "scripts/setup_psql.sh"
+  - location: "/scripts/setup_psql.sh"
     timeout: 300
     runas: root
-  - location: "scripts/setup_httpd.sh"
+  - location: "/scripts/setup_httpd.sh"
     timeout: 300
     runas: root   
   ApplicationStart:
-  - location: "/home/ec2-user/app/scripts/start_script.sh"
+  - location: "/scripts/start_script.sh"
     timeout: 300
     runas: root   
   ApplicationStop:
-  - location: "/home/ec2-user/app/scripts/stop_script.sh"
+  - location: "/scripts/stop_script.sh"
     timeout: 300
     runas: root   
