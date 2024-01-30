@@ -3,12 +3,12 @@ phases:
   install:
     runtime-versions:
       nodejs: 12
-  commands:
-  - npm install
+    commands:
+      - pip3 install --upgrade awscli
   post_build:
     commands:
-    - rm -rf node_modules
-    - npm install --production
+      - rm -rf node_modules
+      - npm install --production
   artifacts:
     files:
-    - '**/*'
+      - '**/*'
