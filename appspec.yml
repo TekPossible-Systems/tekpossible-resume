@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-- source: "/server.js"
+- source: "server.js"
   destination: "/home/ec2-user/app/server.js"
 - source: "/init_data/"
   destination: "/home/ec2-user/app/init_data/"
@@ -11,9 +11,9 @@ files:
   destination: "/home/ec2-user/app/views/"
 - source: "/resources/"
   destination: "/home/ec2-user/app/resources/"
-- source: "/package.json"
+- source: "package.json"
   destination: "/home/ec2-user/app/package.json" 
-- source: "/package-lock.json"
+- source: "package-lock.json"
   destination: "/home/ec2-user/app/package-lock.json"
 - source: "/node_modules/"
   destination: "/home/ec2-user/app/node_modules/"
