@@ -58,7 +58,7 @@
           }
           return str;
         }
-        function get_data(resume_name, resume_url, resume_img, resume_id, resume_desc{ 
+        function get_data(resume_name, resume_url, resume_img, resume_id, resume_desc) { 
           card.innerHTML += "<div class=\"card\" id=\"" + resume_id + "\" style=\"width: 20rem;\"><img src="+ resume_img + " class=\"card-img-top\" alt=\"Resume Image\"><div class=\"card-body\"><h4 class=\"card-title\">" + resume_name + "</h4><h5>Related Link: <a href=\"" + resume_url + "\">Link</a>></h5><p class=\"card-text\">" +  resume_desc + "</p></div></div>";
         }
         <% if (items) { %>
