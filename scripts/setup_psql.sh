@@ -12,4 +12,4 @@ sudo sed -i "s/REPLACE/$DATABASE_PASSWORD/g" /home/ec2-user/app/scripts/start_sc
 sudo sed -i "s/REPLACE/$DATABASE_PASSWORD/g" /home/ec2-user/app/server.js
 sudo sed -i "s/peer/trust/g" /var/lib/pgsql/data/pg_hba.conf
 sudo sed -i "s/ident/trust/g" /var/lib/pgsql/data/pg_hba.conf
-sudo systemctl restart postgres
+sudo systemctl restart postgresql
