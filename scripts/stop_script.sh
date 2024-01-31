@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo killall -9 node-18
+forever stopall
 sudo systemctl stop httpd

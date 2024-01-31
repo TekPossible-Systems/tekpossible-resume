@@ -32,7 +32,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/experience', function(req, res) {
-  const select_statement = "select * from experience;";
+  const select_statement = "select * from resume;";
   db.task('get-everything', task => {
     return task.batch([
              task.any(select_statement),
@@ -41,7 +41,7 @@ app.get('/experience', function(req, res) {
      .then(info => {
       res.render('pages/experience',{
         my_title: "Griffin Kiesecker - Experience and Education",
-        items: info,
+        items: info[0],
         error: false,
         message: ''
       })
@@ -58,7 +58,7 @@ app.get('/experience', function(req, res) {
 });
 
 app.get('/projects', function(req, res) {
-  const select_statement = "select * from projects;";
+  const select_statement = "select * from resume;";
   db.task('get-everything', task => {
     return task.batch([
              task.any(select_statement),
@@ -67,7 +67,7 @@ app.get('/projects', function(req, res) {
      .then(info => {
       res.render('pages/projects',{
         my_title: "Griffin Kiesecker - Certifications and Projects",
-        items: info,
+        items: info[0],
         error: false,
         message: ''
       })
