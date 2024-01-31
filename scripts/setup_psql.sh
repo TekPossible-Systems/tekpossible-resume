@@ -1,5 +1,6 @@
 #!/bin/bash
 cd /tmp
+rm -rf /tmp/*.sql
 \cp  /home/ec2-user/app/init_data/create.sql /tmp/create.sql
 chmod 777 /tmp/create.sql
 sudo -u postgres psql -U postgres -a -f /tmp/create.sql
