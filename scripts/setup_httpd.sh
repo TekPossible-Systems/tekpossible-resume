@@ -2,16 +2,10 @@
 
 # Thanks aws for the httpd config! I did not want to mess with that
 # TODO: Cert bot stuff.
-sudo cat <<EOT >> /etc/httpd/conf/httpd.conf
-LoadModule proxy_module modules/mod_proxy.so
-LoadModule proxy_http_module modules/mod_proxy_http.so
-
-ProxyRequests Off
-ProxyPass / http://localhost:8080/
-ProxyPassReverse / http://localhost:8080/
-
-<Location "/">
-  Order allow,deny
-  Allow from all
-</Location>
-EOT
+sudo npm install forever@4.0.0 -g
+sudo dnf install -y certbot
+sudo cp ./welcome.conf /etc/httpd/conf.d/welcome.conf
+sudo cp ./ssl.conf /etc/httpd/conf.d/ssl.conf
+sudo systemctl stop httpd
+sudo certbot certonly -d resume.tekpossible.com --standalone -m grifkies@protonmail.com --agree-tos -n
+sudo systemctl start httpd

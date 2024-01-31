@@ -15,7 +15,7 @@ const dbConfig = {
 	host: 'localhost',
 	port: 5432,
 	database: 'tekpossible_resume',
-	user: 'postgres', // TODO: Figure out what we want here...
+	user: 'tekpossible_resume',
 	password: process.env.DATABASE_PASSWORD
 };
 
