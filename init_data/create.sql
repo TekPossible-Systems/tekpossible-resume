@@ -96,6 +96,14 @@ insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, r
     'PROJ'
 );
 insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
+    'December 2019 Cisco Certified Network Associate - Security (CCNA-S)(EXPIRED)', 
+    'https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html', 
+    'https://images.credly.com/size/340x340/images/23ae0d10-85d7-415a-a6c0-0e2919040628/cisco_ccna_security.png',
+    'CCNAS', 
+    'This certification validates the skills required of associate-level network professionals to develop a security infrastructure, recognize threats and vulnerabilities to networks and mitigate security threats.', 
+    'PROJ'
+);
+insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
     'CompTIA Security+', 
     'https://www.comptia.org/certifications/security', 
     'https://images.credly.com/size/340x340/images/74790a75-8451-400a-8536-92d792c5184a/CompTIA_Security_2Bce.png',
