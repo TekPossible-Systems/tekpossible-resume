@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS experience CASCADE;
+DROP TABLE IF EXISTS resume CASCADE;
 CREATE TABLE IF NOT EXISTS resume (
     resume_name varchar(512),
     resume_url varchar(512),
