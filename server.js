@@ -14,9 +14,9 @@ app.use(express.static(__dirname + '/'));// Set the relative path; makes accessi
 const dbConfig = {
 	host: 'localhost',
 	port: 5432,
-	database: 'tekpossible_resume',
-	user: 'tekpossible_resume',
-	password: process.env.DATABASE_PASSWORD
+	database: 'postgres',
+	user: 'postgres',
+	password: 'REPLACE'
 };
 
 var db = pgp(dbConfig);
