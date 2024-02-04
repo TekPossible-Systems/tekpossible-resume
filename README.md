@@ -1,6 +1,8 @@
-# TekPossible Global Emergency and Operations Deterrence System (GEODeS)
+# Resume - Griffin Kiesecker
 ## Purpose
-This is an application operating on fake data. The main use of the application is to practice my DevOps using AWS and IaC tools to maintain a secure baseline that has little to no downtime.
-## Functionality
-1. Serve as a way to catgorize fake bad pillows (villow pillows) and their last known locations/list of crimes
-2. Serve as a way to update information about the nefarious pillows and their updates
+This is my resume. I created it to prove 2 things: 
+1. I can write and maintain a web application via AWS DevOps principles.
+2. I can use the CDK to deploy all infrastructure needed to deploy the CI/CD and NodeJS server infrastructure. I can also use a CI/CD pipeline to deploy any changes to the infrastructure
+
+
+A link to the resume is [https://resume.tekpossible.com](here).
