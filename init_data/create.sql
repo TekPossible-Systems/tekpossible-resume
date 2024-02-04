@@ -63,14 +63,7 @@ insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, r
     'This resume was designed by me using Express.js and CDK/CloudFormation for the infrastructure. Any change that is made to this website is made via a CI/CD Pipeline using Codecommit, codedeploy, codebuild, and codepipeline. These resources and the infrastructure that powers the actual website is deployed and managed via the CDK(I am using TypeScript). The code for the website and the infrastructure are available at the link in this card.', 
     'PROJ'
 );
-insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
-    'October 2023 - RedHat Certified Engineer (RHCE)', 
-    'https://www.redhat.com/en/services/certification/rhce', 
-    'https://images.credly.com/size/340x340/images/19c4e804-54fe-4857-b022-7cfd5520596c/image.png',
-    'RHCE', 
-    'A Red Hat® Certified Engineer (RHCE®) is a Red Hat Certified System Administrator (RHCSA) who is ready to automate Red Hat® Enterprise Linux® tasks, integrate Red Hat emerging technologies, and apply automation for efficiency and innovation. The credential is earned after successfully passing the Red Hat Certified Engineer (RHCE) exam (EX294)', 
-    'PROJ'
-);
+
 insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
     'September 2023 - RedHat Certified Systems Administrator (RHCSA)', 
     'https://www.redhat.com/en/services/certification/rhcsa', 
@@ -79,6 +72,16 @@ insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, r
     'An IT professional who has earned the Red Hat® Certified System Administrator (RHCSA®) is able to perform the core system administration skills required in Red Hat Enterprise Linux environments. The credential is earned after successfully passing the Red Hat Certified System Administrator (RHCSA) Exam (EX200).', 
     'PROJ'
 );
+
+insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
+    'October 2023 - RedHat Certified Engineer (RHCE)', 
+    'https://www.redhat.com/en/services/certification/rhce', 
+    'https://images.credly.com/size/340x340/images/19c4e804-54fe-4857-b022-7cfd5520596c/image.png',
+    'RHCE', 
+    'A Red Hat® Certified Engineer (RHCE®) is a Red Hat Certified System Administrator (RHCSA) who is ready to automate Red Hat® Enterprise Linux® tasks, integrate Red Hat emerging technologies, and apply automation for efficiency and innovation. The credential is earned after successfully passing the Red Hat Certified Engineer (RHCE) exam (EX294)', 
+    'PROJ'
+);
+
 insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
     'June 2019 Cisco Certified Network Associate (CCNA)(EXPIRED)', 
     'https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html', 
