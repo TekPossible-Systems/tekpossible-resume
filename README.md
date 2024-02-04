@@ -5,4 +5,4 @@ This is my resume. I created it to prove 2 things:
 2. I can use the CDK to deploy all infrastructure needed to deploy the CI/CD and NodeJS server infrastructure. I can also use a CI/CD pipeline to deploy any changes to the infrastructure
 
 
-A link to the resume is [https://resume.tekpossible.com](here).
+A link to the resume is [here](https://resume.tekpossible.com).
