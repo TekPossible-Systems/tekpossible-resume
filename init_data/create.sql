@@ -30,7 +30,7 @@ insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, r
 insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
     'Summer 2021: Intern at Numerica - Spyglass Team', 
     'https://www.numerica.us/air-defense/', 
-    'https://s11967.pcdn.co/wp-content/uploads/2022/10/Spyglass-Radar-Numerica-Corporation-2-300x200.jpg',
+    'https://numerica.us/wp-content/uploads/2024/02/cropped-Favicon-180x180.jpg',
     'NUMERICA', 
     'At Numerica, I was tasked with fixing a kernel module that did not have multi-channel support for an FPGA that supported 8 channels. I also developed a program using PyVISA to monitor the temperature of the radar I worked with. Finally, I wrote systemd services and ansible automation to minimize the time it took to turn on the radar. The time went from around 1 hour to turn on the radar to 15 minutes.', 
     'EXPR'
