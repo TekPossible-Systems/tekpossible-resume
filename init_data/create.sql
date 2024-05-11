@@ -107,7 +107,16 @@ insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, r
     'PROJ'
 );
 insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
-    'CompTIA Security+', 
+    'December 2023 - CompTIA A+', 
+    'https://www.comptia.org/certifications/a', 
+    'https://images.credly.com/images/63482325-a0d6-4f64-ae75-f5f33922c7d0/CompTIA_A_2Bce.png',
+    'APLUS', 
+    'Earners of the CompTIA A+ certification are proven problem solvers who are able to perform critical IT support tasks including device configuration, data backup and recovery, and operating system configuration. CompTIA A+ certified professionals have demonstrated baseline security skills for IT support roles and are able to detect and remove malware, address privacy concerns, and troubleshoot core service challenges.', 
+    'PROJ'
+);
+
+insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
+    'June 2023 - CompTIA Security+', 
     'https://www.comptia.org/certifications/security', 
     'https://images.credly.com/size/340x340/images/74790a75-8451-400a-8536-92d792c5184a/CompTIA_Security_2Bce.png',
     'SECPLUS', 
@@ -115,7 +124,7 @@ insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, r
     'PROJ'
 );
 insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
-    'ITILv4 Foundation', 
+    'July 2023 - ITILv4 Foundation', 
     'https://www.axelos.com/certifications/itil-service-management/itil-4-foundation', 
     'https://certwizard.com/sites/default/files/2020-05/ITIL-4-Foundation-certwizard.png',
     'ITIL', 
