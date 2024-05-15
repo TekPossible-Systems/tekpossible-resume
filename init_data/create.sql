@@ -106,6 +106,16 @@ insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, r
     'This certification validates the skills required of associate-level network professionals to develop a security infrastructure, recognize threats and vulnerabilities to networks and mitigate security threats.', 
     'PROJ'
 );
+
+insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
+    'May 2024 - CompTIA Cloud+', 
+    'https://www.comptia.org/certifications/cloud', 
+    'https://images.credly.com/size/340x340/images/4a1a7339-ce0f-458a-9ee7-620416e68c19/CompTIA_Cloud_2Bce.png',
+    'CLOUDPLUS', 
+    'Earners of the CompTIA Cloud+ certification have the knowledge and expertise needed to configure, deploy, maintain, and optimize cloud infrastructure services. These IT professionals have demonstrated the ability to incorporate and manage cloud technologies and weave together solutions that meet specific business needs.', 
+    'PROJ'
+);
+
 insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
     'December 2023 - CompTIA A+', 
     'https://www.comptia.org/certifications/a', 
