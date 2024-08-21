@@ -10,13 +10,14 @@ CREATE TABLE IF NOT EXISTS resume (
 -- INSERT STATEMENTS FOR EXPERIENCE/EDUCATION HERE
 
 insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
-    'December 2022 – Present: Associate System Administrator at Northrop Grumman - Space Systems', 
+    'December 2022 – Present: Associate System Administrator / System Administrator at Northrop Grumman - Space Systems', 
     'https://www.northropgrumman.com/who-we-are/business-sectors/space-systems', 
     'https://media.defense.gov/2003/Mar/28/2002305629/1200/1200/0/030328-F-JZ000-036.JPG',
     'NGSPSA', 
     'As a System Administrator at Northrop Grumman Space Systems, I developed patching and deployment automation for RHEL 7/9 systems. I also oversee various architecture efforts involving VMware vSphere technologies, and how to secure them and make them highly available in an automated fashion. I also developed alternative methods of using RSA Authentication Manager to ensure that all of our devices could use MFA.', 
     'EXPR'
 );
+
 
 insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
     'Summer 2022 – December 2022: Intern at Northrop Grumman - Space Systems', 
@@ -57,7 +58,7 @@ insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, r
 -- INSERT STATEMENTS FOR PROJECTS/CERTIFICATIONS HERE
 insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
     'November 2023 - Present: Project TekPossible', 
-    'https://github.com/TekPossible-ES/tekpossible-aws', 
+    'https://github.com/TekPossible-Systems', 
     'https://www.inrhythm.com/wp-content/uploads/2023/07/aws-cdk-1024x618.png',
     'TEKPOSSIBLE', 
     'This resume was designed by me using Express.js and CDK/CloudFormation for the infrastructure. Any change that is made to this website is made via a CI/CD Pipeline using Codecommit, codedeploy, codebuild, and codepipeline. These resources and the infrastructure that powers the actual website is deployed and managed via the CDK (I am using TypeScript). The code for the website and the infrastructure are available at the link in this card.', 
@@ -133,6 +134,25 @@ insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, r
     'Earners of the CompTIA Security+ certification have the knowledge and skills necessary to perform core security functions required of any cybersecurity role. CompTIA Security+ professionals know how to identify and address potential threats, attacks and vulnerabilities and they have established techniques in risk management, risk mitigation, threat management and intrusion detection.', 
     'PROJ'
 );
+
+insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
+    'July 2024 - ISC2 SSCP', 
+    'https://www.isc2.org/certifications/sscp', 
+    'https://media.isc2.org/-/jssmedia/Project/ISC2/Main/Components/Product-Masthead/Badge-SSCP-black.png',
+    'SSCP', 
+    'The vendor-neutral SSCP credential confirms deep technical knowledge and competency in implementing, monitoring, and administering IT Infrastructure in accordance with information security policies and requirements across the organization. The SSCP credential draws from a comprehensive, up-to-date global body of knowledge that ensures candidates have the right information security knowledge and skills to be successful in IT operational roles.', 
+    'PROJ'
+);
+
+insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
+    'July 2024 - CompTIA Project+', 
+    'https://www.comptia.org/certifications/project', 
+    'https://images.credly.com/size/340x340/images/559a5b6e-a8c2-49ce-afa5-c2b36219641c/CompTIA_Project_2B.png',
+    'PROJPLUS', 
+    'Earners of the CompTIA Project+ certification have the entry-level hands-on IT project management skills to coordinate small- to medium-sized projects using waterfall and agile methodologies. These professionals have demonstrated the knowledge and skills required to manage a project lifecycle by identifying and managing risk, establishing a communication plan, managing resources, and stakeholders, and maintaining project documentation.', 
+    'PROJ'
+);
+
 insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
     'July 2023 - ITILv4 Foundation', 
     'https://www.axelos.com/certifications/itil-service-management/itil-4-foundation', 
