@@ -59,7 +59,7 @@ insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, r
 insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
     'November 2023 - Present: Project TekPossible', 
     'https://github.com/TekPossible-Systems', 
-    'https://www.inrhythm.com/wp-content/uploads/2023/07/aws-cdk-1024x618.png',
+    'https://resume.tekpossible.com/resources/img/stock_logo.jpeg',
     'TEKPOSSIBLE', 
     'This resume was designed by me using Express.js and CDK/CloudFormation for the infrastructure. Any change that is made to this website is made via a CI/CD Pipeline using Codecommit, codedeploy, codebuild, and codepipeline. These resources and the infrastructure that powers the actual website is deployed and managed via the CDK (I am using TypeScript). The code for the website and the infrastructure are available at the link in this card.', 
     'PROJ'
