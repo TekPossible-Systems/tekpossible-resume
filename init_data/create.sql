@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS resume (
 insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
     'December 2022 – Present: Associate System Administrator / System Administrator at Northrop Grumman - Space Systems', 
     'https://www.northropgrumman.com/who-we-are/business-sectors/space-systems', 
-    'https://media.defense.gov/2003/Mar/28/2002305629/1200/1200/0/030328-F-JZ000-036.JPG',
+    'https://ih1.redbubble.net/image.2765240394.7699/fposter,small,wall_texture,product,750x1000.jpg',
     'NGSPSA', 
     'As a System Administrator at Northrop Grumman Space Systems, I developed patching and deployment automation for RHEL 7/9 systems. I also oversee various architecture efforts involving VMware vSphere technologies, and how to secure them and make them highly available in an automated fashion. I also developed alternative methods of using RSA Authentication Manager to ensure that all of our devices could use MFA.', 
     'EXPR'
@@ -22,7 +22,7 @@ insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, r
 insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
     'Summer 2022 – December 2022: Intern at Northrop Grumman - Space Systems', 
     'https://www.northropgrumman.com/who-we-are/business-sectors/space-systems', 
-    'https://media.defense.gov/2003/Mar/28/2002305629/1200/1200/0/030328-F-JZ000-036.JPG',
+    'https://ih1.redbubble.net/image.2765240394.7699/fposter,small,wall_texture,product,750x1000.jpg',
     'NGSPI', 
     'As an intern at Northrop Grumman Space Systems, I wrote ansible automation to fill in the gaps of building a full stack, such as using pyserial to interact with devices before they had network conectivity. I also wrote automation for user management to determine what users needed to be locked out.', 
     'EXPR'
