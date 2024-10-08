@@ -49,7 +49,7 @@ insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, r
 insert into resume(resume_name,resume_url, resume_img, resume_id, resume_desc, resume_type) values (
     'August 2021 – December 2022: Computer Science Major at CU Boulder', 
     'https://www.colorado.edu/cs/', 
-    'https://www.colorado.edu/cs/sites/default/files/styles/medium/public/block/screen_shot_2021-02-22_at_11.49.53_am_0.png?itok=y2tzES1o',
+    'https://imgs.search.brave.com/32nU2kVAwi_23VympT5HYQcrPFAoiIJwkxOg6kvVUEQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9j/L2MzL0NvbG9yYWRv/X0J1ZmZhbG9lc193/b3JkbWFyay5zdmc',
     'CUBOULDER', 
     'At CU Boulder, I learned complex mathematics like Calculus and Linear algebra. I also learned C++ data structures as well as web development best practices and the SQL language.', 
     'EXPR'
